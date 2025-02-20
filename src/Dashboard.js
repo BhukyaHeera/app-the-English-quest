@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Table, Button, Modal, Form, Input, Select, Upload } from 'antd';
+import { Table, Button, Modal, Form, Input, Select,  } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
 import { auth } from '../src/firebase';
 import { signOut } from 'firebase/auth';
